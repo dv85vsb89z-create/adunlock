@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#F5F7FB">
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Blocage publicitaire local"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#111827"
+        android:layout_marginBottom="12dp" />
+
+    <TextView
+        android:id="@+id/statusText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aucune récompense active"
+        android:textSize="18sp"
+        android:textColor="#374151"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/watchAdButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Regarder 1 minute de publicité"
+        android:textAllCaps="false"
+        android:backgroundTint="#2563EB"
+        android:textColor="#FFFFFF"
+        android:padding="18dp" />
+
+</LinearLayout>
